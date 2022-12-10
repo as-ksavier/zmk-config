@@ -46,10 +46,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp Y &kp 9  &kp 8 &kp LBRC &kp RBRC                &kp Z &kp F &kp U &kp X &kp SQT &trans 
-   &trans &kp SEMI &kp MINUS &kp EQUAL &kp LPAR &kp RPAR      &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
-   &trans &kp Q &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT         &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
-   &trans &kp DEL &kp 0  &mt LALT BSPC                        &mt RMETA  RET &lt 1 ESC &kp CAPS 
+   &trans &trans &trans  &trans &kp LBRC &kp RBRC           &kp Z &kp F &kp U &kp X &kp SQT &trans 
+   &trans &kp SEMI &kp MINUS &kp EQUAL &kp LPAR &kp RPAR    &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
+   &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT      &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
+   &trans &trans &trans                                     &mt RMETA  RET &lt 1 ESC &kp CAPS 
                         >;
                 };
         };
