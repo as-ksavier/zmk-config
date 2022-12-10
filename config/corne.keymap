@@ -32,10 +32,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp Y &kp 9  &kp 8 &kp 7 &trans        &kp Z &kp F &kp U &kp X &kp SQT &trans 
-   &trans &kp TAB &kp 4  &kp 5 &kp 6 &trans      &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
-   &trans &kp Q &kp 3  &kp 2 &kp 1 &trans        &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
-   &trans &kp DEL &kp 0  &mt LALT BSPC           &mt RMETA  RET &lt 1 ESC &kp CAPS 
+   &trans &trans &kp 9  &kp 8 &kp 7 &trans        &kp Z &kp F &kp U &kp X &kp SQT &trans 
+   &trans &kp TAB &kp 4  &kp 5 &kp 6 &trans       &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
+   &trans &trans &kp 3  &kp 2 &kp 1 &trans        &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
+   &trans &trans &kp 0  &trans                    &mt RMETA  RET &lt 1 ESC &kp CAPS 
                         >;
                 };
 
