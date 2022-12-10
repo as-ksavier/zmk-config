@@ -32,10 +32,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans 
-   &trans &kp I &kp S  &kp R &mt LSHFT T &kp G    &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
-   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
-   &trans &kp DEL &lt 1 SPACE  &mt LALT BSPC      &mt RMETA  RET &lt 1 ESC &kp CAPS 
+   &trans &kp Y &kp 9  &kp 8 &kp 7 &trans        &kp Z &kp F &kp U &kp X &kp SQT &trans 
+   &trans &kp TAB &kp 4  &kp 5 &kp 6 &trans      &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
+   &trans &kp Q &kp 3  &kp 2 &kp 1 &trans        &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
+   &trans &kp DEL &kp 0  &mt LALT BSPC           &mt RMETA  RET &lt 1 ESC &kp CAPS 
                         >;
                 };
 
@@ -46,10 +46,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+   &trans &kp Y &kp 9  &kp 8 &kp LBRC &kp RBRC                &kp Z &kp F &kp U &kp X &kp SQT &trans 
+   &trans &kp SEMI &kp MINUS &kp EQUAL &kp LPAR &kp RPAR      &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
+   &trans &kp Q &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT         &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
+   &trans &kp DEL &kp 0  &mt LALT BSPC                        &mt RMETA  RET &lt 1 ESC &kp CAPS 
                         >;
                 };
         };
