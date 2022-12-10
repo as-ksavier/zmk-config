@@ -21,35 +21,35 @@
                         bindings = <
    &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans 
    &trans &kp I &kp S  &kp R &kp T &kp G          &kp P &kp N &kp E &kp A &kp O &trans 
-   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt first COMMA &lt second DOT &kp FSLH  &trans    
+   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 1 COMMA &lt 2 DOT &kp FSLH  &trans    
           &kp DEL &mt LSHFT SPACE &mt LALT BSPC      &mt RMETA  RET &mt RSHIFT ESC &kp CAPS 
                         >;
                 };
-                first {
+                lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// |  Y  |  C  |  L  |  M  |  K  |           |  Z  |  F   |  U  |  X  |  '  |
+// |  I  |  S  |  R  | T&S |  G  |           |  P  |  N&S |  E  |  A  |  O  |  
+// |  Q  |  V  |  W  |  D  |  J  |           |  B  |  H   |LT2&,|  .  |  /  | 
+//   | DEL |SPACE&LT1|BSPC&option|           | RET&META | ESC&LT1  |  |
                         bindings = <
-   &trans &trans &kp 9  &kp 8 &kp 7 &trans        &kp Z &kp F &kp U &kp X &kp SQT &trans 
-   &trans &kp TAB &kp 4  &kp 5 &kp 6 &trans       &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
-   &trans &trans &kp 3  &kp 2 &kp 1 &trans        &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
-   &trans &trans &kp 0  &trans                    &mt RMETA  RET &lt 1 ESC &kp CAPS 
+   &trans &trans &kp N9  &kp N8 &kp N7 &trans         &trans  &trans  &trans  &trans  &trans  &trans 
+   &trans &kp TAB &kp N4  &kp N5 &kp N6 &trans        &trans  &trans  &trans  &trans  &trans  &trans  
+   &trans &trans &kp N3  &kp N2 &kp N1 &trans         &trans  &trans  &trans  &trans  &trans  &trans    
+   &trans &trans &kp N0  &trans                     &trans  &trans  &trans  
                         >;
                 };
 
-                second {
+                raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &trans &trans  &trans &kp LBRC &kp RBRC           &kp Z &kp F &kp U &kp X &kp SQT &trans 
-   &trans &kp SEMI &kp MINUS &kp EQUAL &kp LPAR &kp RPAR    &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
-   &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT      &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
-   &trans &trans &trans                                     &mt RMETA  RET &lt 1 ESC &kp CAPS 
+   &trans &trans &trans  &trans &kp LBRC &kp RBRC            &trans  &trans  &trans  &trans  &trans  &trans    
+   &trans &kp SEMI &kp MINUS &kp EQUAL &kp LPAR &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans  
+   &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans     
+   &trans &trans &trans                                      &trans  &trans  &trans  
                         >;
                 };
         };
