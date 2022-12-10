@@ -21,11 +21,11 @@
                         bindings = <
    &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans 
    &trans &kp I &kp S  &kp R &kp T &kp G          &kp P &kp N &kp E &kp A &kp O &trans 
-   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 1 COMMA &lt 2 DOT &kp FSLH  &trans    
+   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt first COMMA &lt second DOT &kp FSLH  &trans    
           &kp DEL &mt LSHFT SPACE &mt LALT BSPC      &mt RMETA  RET &mt RSHIFT ESC &kp CAPS 
                         >;
                 };
-                lower_layer {
+                first {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -39,7 +39,7 @@
                         >;
                 };
 
-                raise_layer {
+                second {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
