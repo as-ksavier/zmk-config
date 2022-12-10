@@ -15,15 +15,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  F  |  P  |  T  |   |  N  |  E   |  U  |  Y  |  ;  | BKSP |
-// | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  H   |  J  |  K  |  L  |  '   |
-// | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  N  |  I   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+// |  Y  |  C  |  L  |  M  |  K  |   |  Z  |  F   |  U  |  X  |  '  |
+// |  I  |  S  |  R  | T&S |  G  |   |  P  |  N&S |  E  |  A  |  O  |  
+// |  Q  |  V  |  W  |  D  |  J  |   |  B  |  H   |LT2&,|  .  |  /  | 
+//   | DEL |SPACE&LT1|BSPC&option|   | RET&META | ESC&LT1  |  |
                         bindings = <
-   &kp TAB   &kp Q       &kp W   &kp F         &kp P       &kp B   &kp COMMA &kp E        &kp U     &kp Y   &kp SEMI   &kp DEL 
-   &kp BSPC  &kp A       &lt 2 R &lt 1 S       &mt LSHFT T &kp G   &kp M &mt RSHFT H  &kp J     &kp K         &lt 1 L           &kp SQT
-   &kp LMETA &mt LCTRL Z &kp X   &kp C         &kp D  &kp V   &kp DOT &kp I   &kp O &kp N       &mt RCTRL FSLH  &kp CAPS
-                  &kp CAPS &mt LALT SPACE  &mt LMETA DEL                  &mt RMETA  RET &mt RALT  ESC &kp PSCRN
+   &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp FSLH &kp SQLT
+   &kp I &kp S  &kp R &mt LSHFT T &kp G    &kp P &mt RSHIFT N &kp E &kp A &kp O
+   &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 2 COMMA &kp DOT &kp X     
+   &kp DEL &lt 1 SPACE  &mt LALT BSPC      &mt RMETA  RET &lt 1 ESC &kp CAPS 
                         >;
                 };
                 lower_layer {
@@ -33,10 +33,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB   &kp N4 &kp BSLH   &kp LBRC &kp RBRC &kp N5     &kp N6    &kp N7 &kp N8 &kp N9 &kp COMMA &kp BSPC
-   &kp LSHFT &trans &kp EQUAL  &kp LPAR &mt LSHFT RPAR &kp TILDE  &kp MINUS &kp N4 &kp N5 &kp N6 &kp TAB &trans
-   &kp LSHFT &trans &kp GRAVE  &kp LBKT &kp RBKT &trans     &kp PLUS  &kp N1 &kp N2 &kp N3 &kp DOT &trans
-                &kp LGUI &trans &kp SPACE     &kp RET  &kp N0   &kp BSPC
+   &kp N4 &kp BSLH   &kp LBRC &kp RBRC &kp N5           &kp N6  &kp N7 &kp N8 &kp N9 &kp COMMA 
+   &trans &kp EQUAL  &kp LPAR &mt LSHFT RPAR &kp TILDE  &kp MINUS &kp N4 &kp N5 &kp N6  &trans
+   &trans &kp GRAVE  &kp LBKT &kp RBKT &trans           &kp PLUS  &kp N1 &kp N2 &kp N3  &trans
+                &kp LGUI &trans &kp SPACE               &kp RET  &kp N0   &kp BSPC
                         >;
                 };
 
@@ -47,9 +47,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp F1   &kp F2 &kp F12 &kp HASH &kp DLLR &kp PRCNT     &kp C_MUTE &kp C_VOL_DN  &kp UP    &kp C_VOL_UP &kp RPAR &bt BT_CLR
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp C_PP &kp LEFT  &kp DOWN  &kp RIGHT &kp TAB &bt BT_NXT
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp C_RW  &kp C_FF  &kp RBRC &kp PIPE &kp TILDE
+   &kp F2 &kp F12 &kp HASH &kp DLLR &kp PRCNT     &kp C_MUTE &kp C_VOL_DN  &kp UP    &kp C_VOL_UP &kp RPAR 
+   &trans   &trans &trans   &trans   &trans      &kp C_PP &kp LEFT  &kp DOWN  &kp RIGHT &kp TAB 
+   &trans   &trans &trans   &trans   &trans      &kp UNDER &kp C_RW  &kp C_FF  &kp RBRC &kp PIPE 
                     	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
