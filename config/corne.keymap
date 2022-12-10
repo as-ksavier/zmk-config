@@ -19,10 +19,10 @@
 // |  Q  |  V  |  W  |  D  |  J  |           |  B  |  H   |LT2&,|  .  |  /  | 
 //   | DEL |SPACE&LT1|BSPC&option|           | RET&META | ESC&LT1  |  |
                         bindings = <
-  &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans 
-   &trans &kp I &kp S  &kp R &mt LSHFT T &kp G    &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
-   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
-   &trans &kp DEL &lt 1 SPACE  &mt LALT BSPC      &mt RMETA  RET &lt 1 ESC &kp CAPS 
+   &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans 
+   &trans &kp I &kp S  &kp R &kp T &kp G          &kp P &kp N &kp E &kp A &kp O &trans 
+   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 1 COMMA &lt 2 DOT &kp FSLH  &trans    
+          &kp DEL &mt LSHFT SPACE &mt LALT BSPC      &mt RMETA  RET &mt RSHIFT ESC &kp CAPS 
                         >;
                 };
                 lower_layer {
@@ -32,10 +32,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans 
+   &trans &kp I &kp S  &kp R &mt LSHFT T &kp G    &kp P &mt RSHIFT N &kp E &kp A &kp O &trans 
+   &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 2 COMMA &kp DOT &kp FSLH  &trans    
+   &trans &kp DEL &lt 1 SPACE  &mt LALT BSPC      &mt RMETA  RET &lt 1 ESC &kp CAPS 
                         >;
                 };
 
