@@ -27,7 +27,7 @@
    &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &mt RCTRL SQT &trans
    &trans &kp I &kp S  &kp R &kp T &kp G          &kp P &kp N &kp E &kp A &kp O &trans 
    &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 1 COMMA &lt 2 DOT &lt 3 FSLH  &trans    
-          &kp DEL &mt LSHFT SPACE &mt LALT BSPC      &mt RMETA  RET &mt RSHIFT ESC &kp CAPS 
+          &mt LCTRL DEL &mt LSHFT SPACE &mt LALT BSPC      &mt RMETA  RET &mt RSHIFT ESC &kp CAPS 
                         >;
                 };
                 numbers_layer {
