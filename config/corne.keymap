@@ -24,7 +24,7 @@
 // |  Q  |  V  |  W  |  D  |  J  |           |  B  |  H   |LT2&,|  .  |  /  | 
 //   | DEL |SPACE&LT1|BSPC&option|           | RET&META | ESC&LT1  |  |
                         bindings = <
-   &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans fy6r
+   &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &kp SQT &trans
    &trans &kp I &kp S  &kp R &kp T &kp G          &kp P &kp N &kp E &kp A &kp O &trans 
    &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 1 COMMA &lt 2 DOT &lt  FSLH  &trans    
           &kp DEL &mt LSHFT SPACE &mt LALT BSPC      &mt RMETA  RET &mt RSHIFT ESC &kp CAPS 
