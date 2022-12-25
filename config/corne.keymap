@@ -27,7 +27,7 @@
    &trans &kp Y &kp C  &kp L &kp M &kp K          &kp Z &kp F &kp U &kp X &mt LALT SQT &trans
    &trans &kp I &kp S  &kp R &kp T &kp G          &kp P &kp N &kp E &kp A &kp O &trans 
    &trans &kp Q &kp V  &kp W &kp D &kp J          &kp B &kp H &lt 1 COMMA &lt 2 DOT &lt 3 FSLH  &trans    
-          &mt LCTRL DEL &mt LSHFT SPACE &mt RMETA BSPC      &mt RCTRL RET &mt RSHIFT ESC &kp CAPS
+   &mt LCTRL DEL &mt LSHFT SPACE &mt RMETA BSPC      &mt RCTRL RET &mt RSHIFT ESC &kp CAPS
                         >;
                 };
                 numbers_layer {
@@ -51,8 +51,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp COLON &kp UNDER  &kp PLUS &kp LBRC &kp RBRC            &trans  &trans  &trans  &trans  &trans  &trans    
-   &trans &kp SEMI &kp MINUS &kp EQUAL &kp LPAR &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans  
+   &trans &kp SEMI &kp UNDER  &kp PLUS &kp LBRC &kp RBRC            &trans  &trans  &trans  &trans  &trans  &trans
+   &trans &kp COLON  &kp MINUS &kp EQUAL &kp LPAR &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans     
    &trans &trans &trans                                      &trans  &trans  &trans  
                         >;
