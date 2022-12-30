@@ -54,7 +54,7 @@
    &trans &kp SEMI &kp UNDER  &kp PLUS &kp LBRC &kp RBRC            &trans  &trans  &trans  &trans  &trans  &trans
    &trans &kp COLON  &kp MINUS &kp EQUAL &kp LPAR &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans     
-   &trans &trans &trans                                      &trans  &trans  &trans  
+   &trans &kp BSPC &trans                                      &trans  &trans  &trans  
                         >;
                 };
                  arrows_layer {
