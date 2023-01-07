@@ -67,7 +67,7 @@
    &trans &trans &trans  &kp C_VOL_DN &kp C_VOL_UP  &bt BT_CLR            &trans  &trans  &trans  &trans  &trans  &trans    
    &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp TAB     &trans  &trans  &trans  &trans  &trans  &trans  
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans     
-   &trans &kp LG(TAB) &trans                                      &trans  &trans  &trans  
+   &trans &mt LALT LG(TAB) &trans                                      &trans  &trans  &trans  
                         >;
                 };
         };
