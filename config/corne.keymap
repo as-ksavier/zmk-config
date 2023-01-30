@@ -25,7 +25,7 @@
 //   | DEL |SPACE&LT1|BSPC&option|           | RET&META | ESC&LT1  |  |
                         bindings = <
    &trans &kp Q &kp W  &kp F &kp P  &kp B         &kp J &kp L &kp U &kp Y &mt LALT SEMI &trans
-   &trans &kp A &kp R  &kp S &kp T &kp G          &kp M &kp N &kp E &kp I &kp O &trans 
+   &trans &kp A &kp R  &kp S &mt LSHFT T &kp G          &kp M &mt RSHIFT N &kp E &kp I &kp O &trans 
    &trans &kp Z &kp X  &kp C &kp D &kp V          &kp K &kp H &lt 1 COMMA &lt 2 DOT &lt 3 FSLH  &trans    
    &mt LALT DEL &mt LSHFT SPACE &mt RMETA BSPC      &mt RCTRL RET &mt RSHIFT ESC &kp CAPS
                         >;
