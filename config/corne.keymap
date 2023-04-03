@@ -57,7 +57,7 @@
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans
    &trans &kp BSPC &kp LCTRL                                      &trans  &trans  &trans
                         >;
-                };
+                }
                  arrows_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
