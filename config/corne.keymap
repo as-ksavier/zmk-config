@@ -67,7 +67,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans &kp C_MUTE &kp C_PP  &kp C_VOL_DN &kp C_VOL_UP  &bt BT_CLR            &trans  &kp F1  &kp F2  &kp F12  &trans  &trans
-   &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp TAB     &trans  &kp RA([)  &kp RA(])  &kp RA(C)  &kp RA(D)  &trans
+   &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp TAB     &trans  &kp RA(A)  &kp RA(B)  &kp RA(C)  &kp RA(D)  &trans
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans
    &trans &mt LALT LG(TAB) &kp LA(BSPC)                                      &trans  &trans  &trans
                         >;
