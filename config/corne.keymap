@@ -41,7 +41,7 @@
    &trans &kp SEMI &kp UNDER  &kp PLUS &kp LBRC &kp RBRC         &trans  &kp N7  &kp N8 &kp N9  &trans &trans
    &trans &kp COLON  &kp MINUS &kp EQUAL &kp LPAR &kp RPAR       &trans  &kp N4  &kp N5 &kp N6  &kp SQT  &trans
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT           &trans  &kp N1  &kp N2 &kp N3  &trans  &trans
-   &trans &kp LG(B) &kp BSPC                                     &trans  &mt RSHIFT N0  &trans
+   &trans &kp RA(C) &kp BSPC                                     &trans  &mt RSHIFT N0  &trans
                         >;
                 };
 
