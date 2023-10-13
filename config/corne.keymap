@@ -53,7 +53,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans &kp SEMI &kp UNDER  &kp PLUS &kp LBRC &kp RBRC            &trans  &trans  &trans  &trans  &trans  &trans
-   &trans &kp COLON  &kp MINUS &kp EQUAL &kp RA(W) &kp RPAR     &kp RC(T)  &kp DEL  &kp BSPC  &kp RC(S)  &kp RC(Q)  &trans
+   &trans &kp COLON  &kp MINUS &kp EQUAL &kp LG(TAB) &kp RPAR     &kp RC(T)  &kp DEL  &kp BSPC  &kp RC(S)  &kp RC(Q)  &trans
    &trans &trans &kp GRAVE  &kp BSLH &kp LBKT &kp RBKT       &trans  &trans  &trans  &trans  &trans  &trans
    &kp RA(D) &kp RA(B) &kp RA(C)                                      &trans  &trans  &trans
 
