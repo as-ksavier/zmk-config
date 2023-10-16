@@ -13,6 +13,7 @@
 #define SYMBOLS   2
 #define ARROWS    3
 #define FINAL     4
+#define MOVING     5
 
 / {
         keymap {
